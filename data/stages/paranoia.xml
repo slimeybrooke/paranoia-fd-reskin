@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<!-- note to self: remake this dogass bg -->
+<stage zoom="1.1" name="paranoia" folder="stage/">
+	<sprite name="bg" x="0" y="0" sprite="bg"/>
+	<ratings x="9999"/>
+	<dad x="50" y="350" camx="200" camy="375" noteoffset="10" zoom="1.1"/>
+	<boyfriend x="350" y="350" camx="400" camy="375" noteoffset="10" zoom="1.2"/>
+</stage>
