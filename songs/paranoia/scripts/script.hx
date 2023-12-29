@@ -74,7 +74,7 @@ function onCameraMove() {
 
 function beatHit() {
 	if (chromBeat && (curBeat % camera.bumpInterval == 0)) {
-		FlxTween.num(0.03*camera.bumpStrength, 0., (((Conductor.stepCrochet/1000)*4)*Std.int(camera.bumpInterval/2))-0.01, {ease: FlxEase.cubeOut}, (value) -> {chromatic.strength = value;});
+		FlxTween.num(0.03*camera.bumpStrength, 0., (((Conductor.stepCrochet/1000)*4)*camera.bumpInterval/2)-0.01, {ease: FlxEase.cubeOut}, (value) -> {chromatic.strength = value;});
 	}
 
 	if (thunder && (curBeat % 16 == 0)) {
