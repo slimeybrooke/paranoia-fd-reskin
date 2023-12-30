@@ -136,6 +136,7 @@ function stepHit()
 			shakeItUp(camGame, 0.005, 0.15);
 			shakeItUp(camHUD, 0.005, 0.15);
 		case 256:
+			camera.data[0].zoom = 1.1;
 			camera.bumpInterval = 1;
 			camera.bumpStrength = 3.75;
 			shakeItUp(camGame, 0.005, 0.15);
